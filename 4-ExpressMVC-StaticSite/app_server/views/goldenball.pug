@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= 'FIFA Golden Ball winners since 1990'
+  ul
+    each winner in winners
+      li= winner.year + ': ' + winner.player + ' (' + winner.team + ')'
+
