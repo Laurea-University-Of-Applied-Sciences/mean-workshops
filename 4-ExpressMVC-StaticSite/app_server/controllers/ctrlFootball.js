@@ -1,5 +1,5 @@
-/* GET home page */
-var winnerlist = function(req, res){
+
+const winnerlist = function(req, res){
     res.render('football',{
         winners:
         [

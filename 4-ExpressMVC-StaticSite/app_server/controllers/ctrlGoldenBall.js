@@ -1,5 +1,5 @@
-/* GET home page */
-var winnerlist = function(req, res){
+
+const winnerlist = function(req, res){
     res.render('goldenball',{
         winners:
         [
@@ -12,6 +12,7 @@ var winnerlist = function(req, res){
             {year:'2014', player:'Lionel Messi', team: 'Argentina'}
         ]});
 };
+
 module.exports = {
     winnerlist
 };
