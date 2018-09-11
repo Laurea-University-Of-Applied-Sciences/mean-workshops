@@ -9,7 +9,8 @@ const winnerlist = function(req, res){
             {year:'2002', player:'Oliver Khan', team: 'Germany'},
             {year:'2006', player:'Zinedine Zidane', team: 'France'},
             {year:'2010', player:'Diego Forlán', team: 'Uruguay'},
-            {year:'2014', player:'Lionel Messi', team: 'Argentina'}
+            {year:'2014', player:'Lionel Messi', team: 'Argentina'},
+            {year:'2018', player:'Luka Modric', team: 'Croacia'}
         ]});
 };
 
