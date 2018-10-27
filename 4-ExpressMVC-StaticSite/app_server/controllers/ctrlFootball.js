@@ -1,4 +1,3 @@
-
 const winnerlist = function(req, res){
     res.render('football',{
         winners:
@@ -10,9 +9,10 @@ const winnerlist = function(req, res){
             {year:'2006', team:'Italy'},
             {year:'2010', team:'Spain'},
             {year:'2014', team:'Germany'},
-            {year:'2018', team:'Croacia'}
+            {year:'2018', team:'France'}
         ]});
 };
 module.exports = {
     winnerlist
 };
+

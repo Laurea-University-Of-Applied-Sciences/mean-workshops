@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .row
+    h4 New world cup winner
+  form(action="", method="post")
+    .form-group.row
+      label Year
+        input.form-control(name="year")
+    .form-group.row
+      label Team
+        input.form-control(name="team")
+    .form-group.row
+      button.btn-primary Add
+

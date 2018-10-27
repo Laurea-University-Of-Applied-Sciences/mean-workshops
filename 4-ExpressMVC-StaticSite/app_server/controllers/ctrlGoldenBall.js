@@ -1,4 +1,3 @@
-
 const winnerlist = function(req, res){
     res.render('goldenball',{
         winners:

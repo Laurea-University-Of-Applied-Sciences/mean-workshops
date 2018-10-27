@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h3= 'FIFA World Cup champions since 1990'
+  ul
+    each winner in winners
+      li= winner.year + ': ' + winner.team
+  a(href='/worldcup/add') Add new worldcup winner
+
+
+
