@@ -27,7 +27,7 @@ const winnerlist = function(req, res){
                 res.render('error', {message: 'No documents in collection'});
             }
             else {
-                res.render('worldcup', {winners: body});
+                res.render('goldenball', {winners: body});
             }
         }
     );
